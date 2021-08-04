@@ -18,4 +18,18 @@ public class UserRegistrationTest {
         boolean result = myFirstName.userNameFirstRule("sh");
         Assertions.assertEquals(result,false);
     }
+
+    @Test
+    void whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters(){
+        UserName myFirstName = new UserName();
+        boolean result = myFirstName.userNameFirstRule("Pratap");
+        Assertions.assertEquals(result,true);
+    }
+
+    @Test
+    void whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters(){
+        UserName myFirstName = new UserName();
+        boolean result = myFirstName.userNameFirstRule("pr");
+        Assertions.assertEquals(result,false);
+    }
 }
