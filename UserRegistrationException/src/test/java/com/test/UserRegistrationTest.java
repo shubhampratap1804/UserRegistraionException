@@ -1,8 +1,21 @@
 package com.test;
 
+import com.main.UserName;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 public class UserRegistrationTest {
-    public static void main(String[] args){
-        System.out.println("Welcome to user registration problem!");
+    @Test
+    void whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters(){
+        UserName myFirstName = new UserName();
+        boolean result = myFirstName.userNameFirstRule("Shubham");
+        Assertions.assertEquals(result,true);
     }
 
+    @Test
+    void whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters(){
+        UserName myFirstName = new UserName();
+        boolean result = myFirstName.userNameFirstRule("sh");
+        Assertions.assertEquals(result,false);
+    }
 }
