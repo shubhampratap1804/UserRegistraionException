@@ -58,7 +58,33 @@
       <recent name="com.main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserRegistrationTest.whenEmailIsEntered_ShouldSatisfyMandatory_AndOptionalPart">
+  <component name="RunManager" selected="Application.EmailValidator">
+    <configuration name="EmailValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.EmailValidator" />
+      <module name="UserRegistrationException.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.UserName" />
+      <module name="UserRegistrationException.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserRegistrationTest.whenEmailIsEntered_ShouldSatisfyMandatory_AndOptionalPart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -101,27 +127,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistrationTest.whenInvalidPasswordIsProvided_ForThirdRule_ShouldReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest.whenInvalidPasswordIsProvided_ForThirdRule_ShouldReturnFalse&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="UserRegistrationTest.whenValidPasswordIsProvided_ForFourthRule_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -143,34 +148,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistrationTest.whenValidPasswordIsProvided_ForThirdRule_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest.whenValidPasswordIsProvided_ForThirdRule_ShouldReturnTrue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmailValidator" />
+        <item itemvalue="Application.UserName" />
         <item itemvalue="Gradle.UserRegistrationTest.whenEmailIsEntered_ShouldSatisfyMandatory_AndOptionalPart" />
         <item itemvalue="Gradle.UserRegistrationTest.whenInvalidPasswordIsProvided_ForFourthRule_ShouldReturnFalse" />
         <item itemvalue="Gradle.UserRegistrationTest.whenValidPasswordIsProvided_ForFourthRule_ShouldReturnTrue" />
-        <item itemvalue="Gradle.UserRegistrationTest.whenInvalidPasswordIsProvided_ForThirdRule_ShouldReturnFalse" />
-        <item itemvalue="Gradle.UserRegistrationTest.whenValidPasswordIsProvided_ForThirdRule_ShouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>

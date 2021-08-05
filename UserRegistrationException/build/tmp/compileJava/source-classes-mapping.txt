@@ -2,3 +2,5 @@ com/main/UserNameException.java
  com.main.UserNameException
 com/main/UserName.java
  com.main.UserName
+com/main/EmailValidator.java
+ com.main.EmailValidator

@@ -26,7 +26,7 @@ public class UserName {
     }
 
     //Method to check for regular expression of email
-    public boolean myValidEmail(String eMail) throws UserNameException {
+    public boolean  myValidEmail(String eMail) throws UserNameException {
         try{
             Pattern myPattern = Pattern.compile("([a-zA-Z0-9])+(.[a-zA-z0-9/-/.]+)*@[a-z]{2,}.[a-z]{2,4}(.[a-z]{2,4})*");
             return myPattern.matcher(eMail).matches();
