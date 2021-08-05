@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.test.UserRegistrationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-04T17:19:11" hostname="DESKTOP-EN6GUKD" time="0.078">
+<testsuite name="com.test.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-05T12:51:29" hostname="DESKTOP-EN6GUKD" time="0.051">
   <properties/>
-  <testcase name="whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters()" classname="com.test.UserRegistrationTest" time="0.042"/>
-  <testcase name="whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters()" classname="com.test.UserRegistrationTest" time="0.009"/>
-  <testcase name="whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters()" classname="com.test.UserRegistrationTest" time="0.009"/>
-  <testcase name="whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters()" classname="com.test.UserRegistrationTest" time="0.004"/>
+  <testcase name="whenEmailIsEntered_ShouldSatisfyMandatory_AndOptionalPart()" classname="com.test.UserRegistrationTest" time="0.051"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

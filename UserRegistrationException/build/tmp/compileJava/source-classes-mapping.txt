@@ -1,2 +1,4 @@
+com/main/UserNameException.java
+ com.main.UserNameException
 com/main/UserName.java
  com.main.UserName
