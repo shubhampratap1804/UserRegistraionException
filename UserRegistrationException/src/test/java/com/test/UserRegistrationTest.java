@@ -128,4 +128,24 @@ public class UserRegistrationTest {
             throw new UserNameException("Please enter a invalid second rule password!");
         }
     }
+    @Test
+    void whenValidPasswordIsProvided_ForThirdRule_ShouldReturnTrue() throws UserNameException {
+        UserName myPassword = new UserName();
+        try {
+            boolean result = myPassword.passwordThirdRule("shubham12AB12");
+            Assertions.assertEquals(result,true);
+        } catch (Exception e){
+            throw new UserNameException("Please enter a valid third rule password!");
+        }
+    }
+    @Test
+    void whenInvalidPasswordIsProvided_ForThirdRule_ShouldReturnFalse() throws UserNameException {
+        UserName myPassword = new UserName();
+        try {
+            boolean result = myPassword.passwordThirdRule("shubham12AB");
+            Assertions.assertEquals(result,false);
+        } catch (Exception e){
+            throw new UserNameException("Please enter a invalid third rule password!");
+        }
+    }
 }
