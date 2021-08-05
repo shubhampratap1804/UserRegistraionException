@@ -44,4 +44,14 @@ public class UserName {
             throw new UserNameException("Please enter a valid mobile number!");
         }
     }
+    
+    //Method to check regular expression of password first rule
+    public boolean passwordFirstRule(String password) throws UserNameException {
+        try{
+            Pattern myPattern = Pattern.compile("[A-Za-z0-9]{8,}");
+            return myPattern.matcher(password).matches();
+        } catch (Exception e){
+            throw new UserNameException("PLease enter a valid first rule password");
+        }
+    }
 }

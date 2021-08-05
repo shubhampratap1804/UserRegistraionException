@@ -88,4 +88,24 @@ public class UserRegistrationTest {
             throw new UserNameException("Please enter a invalid mobile number!");
         }
     }
+    @Test
+    void whenValidPasswordIsProvided_ForFirstRule_ShouldReturnTrue() throws UserNameException {
+        UserName myPassword = new UserName();
+        try{
+            boolean result = myPassword.passwordFirstRule("shubham123");
+            Assertions.assertEquals(result,true);
+        } catch (Exception e){
+            throw new UserNameException("Please enter a valid first rule password!");
+        }
+    }
+    @Test
+    void whenInvalidPasswordIsProvided_ForFirstRule_ShouldReturnFalse() throws UserNameException {
+        UserName myPassword = new UserName();
+        try{
+            boolean result = myPassword.passwordFirstRule("sham12");
+            Assertions.assertEquals(result,false);
+        } catch (Exception e){
+            throw new UserNameException("Please enter a invalid first rule password!");
+        }
+    }
 }
