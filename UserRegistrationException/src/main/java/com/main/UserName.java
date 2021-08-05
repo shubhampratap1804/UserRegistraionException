@@ -74,4 +74,14 @@ public class UserName {
             throw new UserNameException("Please enter a valid third rule password!");
         }
     }
+
+    //Method to check regular expression of password fourth rule
+    public boolean passwordFourthRule(String password) throws UserNameException {
+        try{
+            Pattern myPattern = Pattern.compile("[A-Za-z0-9]{8,}[A-Z]+[0-9]+[!@#$%/./^&*]{1}");
+            return myPattern.matcher(password).matches();
+        } catch (Exception e){
+            throw new UserNameException("Please enter a valid fourth rule password");
+        }
+    }
 }
