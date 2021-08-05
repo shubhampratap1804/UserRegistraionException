@@ -68,5 +68,24 @@ public class UserRegistrationTest {
             throw new UserNameException("Please enter a invalid email!");
         }
     }
-
+    @Test
+    void whenValidMobileNumberIsPasses_ShouldReturnTrue() throws UserNameException {
+        UserName myMobileNumber = new UserName();
+        try{
+            boolean result = myMobileNumber.myValidMobileNumber("91 8989156503");
+            Assertions.assertEquals(result,true);
+        } catch (Exception e){
+            throw new UserNameException("Please enter a valid mobile number!");
+        }
+    }
+    @Test
+    void whenInvalidMobileNumberIsPasses_ShouldReturnFalse() throws UserNameException {
+        UserName myMobileNumber = new UserName();
+        try{
+            boolean result = myMobileNumber.myValidMobileNumber("918989156503");
+            Assertions.assertEquals(result,false);
+        } catch (Exception e){
+            throw new UserNameException("Please enter a invalid mobile number!");
+        }
+    }
 }
