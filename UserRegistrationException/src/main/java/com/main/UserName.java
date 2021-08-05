@@ -54,4 +54,14 @@ public class UserName {
             throw new UserNameException("PLease enter a valid first rule password");
         }
     }
+
+    //Method to check regular expression of password second rule
+    public boolean passwordSecondRule(String password) throws UserNameException {
+        try{
+            Pattern myPattern = Pattern.compile("[A-Za-z0-9]{8,}[A-Z]+");
+            return myPattern.matcher(password).matches();
+        } catch (Exception e){
+            throw new UserNameException("Please enter a valid second rule password!");
+        }
+    }
 }
