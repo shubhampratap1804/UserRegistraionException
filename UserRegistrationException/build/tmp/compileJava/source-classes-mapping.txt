@@ -4,5 +4,9 @@ com/main/EmailValidator.java
  com.main.EmailValidator
 com/main/MyFunction.java
  com.main.MyFunction
+com/main/Lamda.java
+ com.main.Lamda
 com/main/UserName.java
  com.main.UserName
+com/main/LamdaCase.java
+ com.main.LamdaCase
