@@ -4,6 +4,7 @@ import com.main.UserNameException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class UserRegistrationTest {

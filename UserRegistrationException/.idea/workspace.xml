@@ -32,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -58,39 +60,13 @@
       <recent name="com.main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmailValidator">
-    <configuration name="EmailValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.EmailValidator" />
-      <module name="UserRegistrationException.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.UserName" />
-      <module name="UserRegistrationException.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTest.whenEmailIsEntered_ShouldSatisfyMandatory_AndOptionalPart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters">
+    <configuration name="UserRegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest.whenEmailIsEntered_ShouldSatisfyMandatory_AndOptionalPart&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -106,12 +82,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistrationTest.whenInvalidPasswordIsProvided_ForFourthRule_ShouldReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistrationTest.whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest.whenInvalidPasswordIsProvided_ForFourthRule_ShouldReturnFalse&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest.whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -127,12 +103,54 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistrationTest.whenValidPasswordIsProvided_ForFourthRule_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistrationTest.whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest.whenValidPasswordIsProvided_ForFourthRule_ShouldReturnTrue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest.whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.test.UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -150,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmailValidator" />
-        <item itemvalue="Application.UserName" />
-        <item itemvalue="Gradle.UserRegistrationTest.whenEmailIsEntered_ShouldSatisfyMandatory_AndOptionalPart" />
-        <item itemvalue="Gradle.UserRegistrationTest.whenInvalidPasswordIsProvided_ForFourthRule_ShouldReturnFalse" />
-        <item itemvalue="Gradle.UserRegistrationTest.whenValidPasswordIsProvided_ForFourthRule_ShouldReturnTrue" />
+        <item itemvalue="Gradle.UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters" />
+        <item itemvalue="Gradle.UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters" />
+        <item itemvalue="Gradle.UserRegistrationTest.whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters" />
+        <item itemvalue="Gradle.UserRegistrationTest.whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters" />
+        <item itemvalue="Gradle.UserRegistrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,10 +189,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenInvalidMobileNumberIsPasses_ShouldReturnFalse.ic" NAME="UserRegistrationTest.whenInvalidMobileNumberIsPasses_ShouldReturnFalse Coverage Results" MODIFIED="1628098667922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters.ic" NAME="UserRegistrationTest.whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters Coverage Results" MODIFIED="1628048121920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters.ic" NAME="UserRegistrationTest.whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters Coverage Results" MODIFIED="1628277587001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters.ic" NAME="UserRegistrationTest.whenFirstNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters Coverage Results" MODIFIED="1628277564914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenInvalidPasswordIsProvided_ShouldReturnFalse.ic" NAME="UserRegistrationTest.whenInvalidPasswordIsProvided_ShouldReturnFalse Coverage Results" MODIFIED="1628099001070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters.ic" NAME="UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters Coverage Results" MODIFIED="1628048250142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters.ic" NAME="UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldHaveMinimumThreeCharacters Coverage Results" MODIFIED="1628277684279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenEmailIsEntered_ShouldSatisfyMandatory_AndOptionalPart.ic" NAME="UserRegistrationTest.whenEmailIsEntered_ShouldSatisfyMandatory_AndOptionalPart Coverage Results" MODIFIED="1628098260757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters.ic" NAME="UserRegistrationTest.whenLastNameIsEntered_ShouldStartWithAUpperCase_ShouldBeHaveMinimumThreeCharacters Coverage Results" MODIFIED="1628277603912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenInvalidPasswordIsProvided_ForFourthRule_ShouldReturnFalse.ic" NAME="UserRegistrationTest.whenInvalidPasswordIsProvided_ForFourthRule_ShouldReturnFalse Coverage Results" MODIFIED="1628100282018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenValidMobileNumberIsPasses_ShouldReturnTrue.ic" NAME="UserRegistrationTest.whenValidMobileNumberIsPasses_ShouldReturnTrue Coverage Results" MODIFIED="1628098625365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenValidPasswordIsProvided_ForThirdRule_ShouldReturnTrue.ic" NAME="UserRegistrationTest.whenValidPasswordIsProvided_ForThirdRule_ShouldReturnTrue Coverage Results" MODIFIED="1628099784636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -182,7 +202,7 @@
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenInvalidPasswordIsProvided_ForThirdRule_ShouldReturnFalse.ic" NAME="UserRegistrationTest.whenInvalidPasswordIsProvided_ForThirdRule_ShouldReturnFalse Coverage Results" MODIFIED="1628099832439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenValidPasswordIsProvided_ShouldReturnTrue.ic" NAME="UserRegistrationTest.whenValidPasswordIsProvided_ShouldReturnTrue Coverage Results" MODIFIED="1628098932326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenInvalidPasswordIsProvided_ForSecondRule_ShouldReturnFalse.ic" NAME="UserRegistrationTest.whenInvalidPasswordIsProvided_ForSecondRule_ShouldReturnFalse Coverage Results" MODIFIED="1628099498405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenValidPasswordIsProvided_ForFourthRule_ShouldReturnTrue.ic" NAME="UserRegistrationTest.whenValidPasswordIsProvided_ForFourthRule_ShouldReturnTrue Coverage Results" MODIFIED="1628100242191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenValidPasswordIsProvided_ForFourthRule_ShouldReturnTrue.ic" NAME="UserRegistrationTest.whenValidPasswordIsProvided_ForFourthRule_ShouldReturnTrue Coverage Results" MODIFIED="1628273724305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UserRegistrationException$UserRegistrationTest_whenValidPasswordIsProvided_ForSecondRule_ShouldReturnTrue.ic" NAME="UserRegistrationTest.whenValidPasswordIsProvided_ForSecondRule_ShouldReturnTrue Coverage Results" MODIFIED="1628099489557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
